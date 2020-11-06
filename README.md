@@ -26,4 +26,10 @@ The View exposes methods which control to presentation of data(or model), like: 
 The Model View Presenter pattern increases the separation of concerns and facilitates unit testing
 Using a consistent architectural and design pattern, the development process becomes much more consistent, a lot easier and transport.
 
-
+In order to build a clean code in the MVP architecture, some tools and frameworks are needed: Dagger 2, Retrofit 2 RxJava, ButterKnife, JUint.
+Dagger 2 is a dependency injection, What is a dependency?
+It's when one component of your app depends on other component of your app.  
+Dependency --> Object that can be used.
+Injection --> Passing of a dependency to a dependent object(a client) that would use it.
+"Dependency Injection is a $25 term for a $0.05 concept." -James Shore
+[more...](https://github.com/razaghimahdi/dagger2-java-practice#dependency-injection-)
